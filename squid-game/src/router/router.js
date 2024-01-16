@@ -48,6 +48,13 @@ const router = new VueRouter({
         default: () => import("../views/game/up-down.vue"),
       },
     },
+    {
+      path: "/MukChiPa",
+      name: "muk-chi-pa",
+      components: {
+        default: () => import("../views/game/muk-chi-pa.vue"),
+      },
+    },
     },
   ],
 });
