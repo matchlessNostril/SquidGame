@@ -104,6 +104,14 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn>
       <v-toolbar-title>S<b>Q</b>UID G<b>A</b>M<b>E</b></v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn
+        v-if="appBarRightBtn.showBtn"
+        icon
+        @click="$router.push(`${appBarRightBtn.to}`)"
+      >
+        <v-icon>{{ appBarRightBtn.icon }}</v-icon>
+      </v-btn>
     </v-app-bar>
     <v-main class="bgColor">
       <!-- 화면 전환 애니메이션 설정 -->
@@ -121,7 +129,55 @@ export default {
   data() {
     return {
       drawer: false,
+      authStatus: false,
+      appBarRightBtn: {
+        showBtn: true,
+        icon: "",
+        to: "",
+      },
     };
+  },
+  watch: {
+    $route(to, from) {
+      this.changeRightBtn();
+    },
+  },
+  mounted() {
+    // created : 컴포넌트가 생성될 때
+    // mounted : 컴포넌트가 DOM에 추가될 때
+    this.changeRightBtn();
+  },
+  methods: {
+    setRightBtnProps(icon, to) {
+      this.appBarRightBtn.showBtn = true;
+      this.appBarRightBtn.icon = icon;
+      this.appBarRightBtn.to = to;
+    },
+    changeRightBtn() {
+      this.authStatus = this.getUserAuthStatus;
+      const currentPath = this.$route.path;
+
+      if (["/", "/main"].includes(currentPath)) {
+        this.appBarRightBtn.showBtn = false;
+      } else if (currentPath === "/signInUp") {
+        this.setRightBtnProps("mdi-chevron-left", "/");
+      } else if (["/emailSignIn", "/emailSignUp"].includes(currentPath)) {
+        this.setRightBtnProps("mdi-chevron-left", "/signInUp");
+      } else if (currentPath === "/gameList") {
+        this.setRightBtnProps(
+          this.authStatus ? "mdi-home" : "mdi-chevron-left",
+          this.authStatus ? "/main" : "/"
+        );
+      } else if (["/Puzzle", "/UpDown", "/MukChiPa"].includes(currentPath)) {
+        this.setRightBtnProps("mdi-chevron-left", "/gameList");
+      } else if (["/gameResult"].includes(currentPath)) {
+        if (this.authStatus) {
+          this.setRightBtnProps("mdi-home", "/main");
+        } else {
+          this.appBarRightBtn.showBtn = false;
+        }
+      }
+    },
   },
   mixins: [getUserAuthStatus, getUserInfo, logout],
 };
