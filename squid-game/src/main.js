@@ -1,3 +1,4 @@
+import "./registerServiceWorker";
 import Vue from "vue";
 import vuetify from "./plugins/vuetify";
 import router from "./router/router";
