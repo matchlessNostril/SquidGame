@@ -41,6 +41,13 @@ const router = new VueRouter({
         default: () => import("../views/game/puzzle.vue"),
       },
     },
+    {
+      path: "/UpDown",
+      name: "updown",
+      components: {
+        default: () => import("../views/game/up-down.vue"),
+      },
+    },
     },
   ],
 });
