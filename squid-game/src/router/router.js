@@ -34,6 +34,11 @@ const router = new VueRouter({
         default: () => import("../views/email-sign-up.vue"),
       },
     {
+      path: "/main",
+      name: "main",
+      component: () => import("../views/main.vue"),
+    },
+    {
       path: "/gameList",
       name: "game-list",
       components: {
