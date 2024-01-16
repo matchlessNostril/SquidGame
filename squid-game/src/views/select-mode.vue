@@ -106,6 +106,24 @@
         <div class="fifth_letter05"></div>
       </div>
     </div>
+    <div class="buttonContainer">
+      <div class="button">
+        <!-- --text : 폰트에 적용 -->
+        <h1 class="white--text">Press to start<br />(Online)</h1>
+        <!-- fab : 작은 원 버튼 -->
+        <v-btn fab class="mt-5" color="#e6ebce" dark to="/signInUp"></v-btn>
+      </div>
+      <div class="button">
+        <h1 class="white--text">Press to start<br />(Offline)</h1>
+        <v-btn
+          fab
+          class="mt-5"
+          color="#fe4063"
+          @click="$router.push('/gameList')"
+        ></v-btn>
+      </div>
+    </div>
+  </div>
 </template>
 <style scoped src="../assets/css/logo-animation.css"></style>
 <style scoped>
@@ -117,12 +135,30 @@
   width: 100%;
   margin-bottom: 35%;
 }
+
+.buttonContainer {
+  position: fixed;
+  bottom: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.button {
+  text-align: center;
+  font-family: "Aldrich", sans-serif;
+}
+
 @media (max-width: 767px) {
   .gif {
     display: block;
   }
   .canvas {
     display: none;
+  }
+  .button {
+    font-size: 8px;
   }
 }
 @media (min-width: 768px) {
@@ -132,4 +168,8 @@
   .gif {
     display: none;
   }
+  .button {
+    font-size: 14px;
+  }
 }
+</style>
