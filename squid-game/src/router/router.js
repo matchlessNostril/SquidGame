@@ -34,6 +34,13 @@ const router = new VueRouter({
         default: () => import("../views/email-sign-up.vue"),
       },
     },
+    {
+      path: "/Puzzle",
+      name: "puzzle",
+      components: {
+        default: () => import("../views/game/puzzle.vue"),
+      },
+    },
     },
   ],
 });
