@@ -37,6 +37,52 @@
               </v-list-item-content>
             </v-list-item>
           </v-list>
+          <v-divider></v-divider>
+          <v-list v-if="getUserAuthStatus">
+            <v-list-item
+              v-if="this.$route.path !== '/main'"
+              @click="$router.push('/main')"
+            >
+              <v-list-item-action>
+                <v-icon>mdi-home</v-icon>
+              </v-list-item-action>
+              <v-list-item-title style="line-height: 1.5"
+                >Main</v-list-item-title
+              >
+            </v-list-item>
+            <v-list-item @click="logout">
+              <v-list-item-action>
+                <v-icon>mdi-logout</v-icon>
+              </v-list-item-action>
+              <v-list-item-title style="line-height: 1.5"
+                >Sign Out</v-list-item-title
+              >
+            </v-list-item>
+          </v-list>
+          <v-list v-else>
+            <v-list-item
+              v-if="this.$route.path !== '/'"
+              @click="$router.push('/')"
+            >
+              <v-list-item-action>
+                <v-icon>mdi-set-left-right</v-icon>
+              </v-list-item-action>
+              <v-list-item-title style="line-height: 1.5"
+                >Select Mode</v-list-item-title
+              >
+            </v-list-item>
+            <v-list-item
+              v-if="this.$route.path !== '/signInUp'"
+              @click="$router.push('/signInUp')"
+            >
+              <v-list-item-action>
+                <v-icon>mdi-login</v-icon>
+              </v-list-item-action>
+              <v-list-item-title style="line-height: 1.5"
+                >Sign In</v-list-item-title
+              >
+            </v-list-item>
+          </v-list>
         </div>
         <v-list>
           <v-list-item>
@@ -77,6 +123,8 @@ export default {
       drawer: false,
     };
   },
+  mixins: [getUserAuthStatus, getUserInfo, logout],
+};
 </script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
