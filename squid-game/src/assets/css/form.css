@@ -1,0 +1,16 @@
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 12vmin;
+  color: #e6ebce;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  height: 30vh;
+}
+
+/* .v-input : v-text-field 스타일링 용 */
+.v-input {
+  width: 70%;
+}
