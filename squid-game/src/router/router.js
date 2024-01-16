@@ -13,6 +13,28 @@ const router = new VueRouter({
         default: () => import("../views/select-mode.vue"),
       },
     },
+    {
+      path: "/signInUp",
+      name: "sing-in-up",
+      components: {
+        default: () => import("../views/sign-in-up.vue"),
+      },
+    },
+    {
+      path: "/emailSignIn",
+      name: "email-sign-in",
+      components: {
+        default: () => import("../views/email-sign-in.vue"),
+      },
+    },
+    {
+      path: "/emailSignUp",
+      name: "email-sign-up",
+      components: {
+        default: () => import("../views/email-sign-up.vue"),
+      },
+    },
+    },
   ],
 });
 
