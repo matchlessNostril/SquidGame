@@ -66,6 +66,10 @@ const router = new VueRouter({
         default: () => import("../views/game/muk-chi-pa.vue"),
       },
     },
+    {
+      path: "/gameResult",
+      name: "game-result",
+      component: () => import("../views/game-result.vue"),
     },
   ],
 });
