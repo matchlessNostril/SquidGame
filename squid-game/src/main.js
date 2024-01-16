@@ -5,6 +5,8 @@ import store from "./store";
 import VueHammer from "vue-hammerjs"; // puzzle 게임 모바일 swipe 라이브러리
 import { squidGameAuth } from "./plugins/firebase";
 import App from "./App.vue";
+import "mdi/css/materialdesignicons.min.css";
+
 new Vue({
   vuetify,
   router,
