@@ -16,6 +16,27 @@
               >S<b>Q</b>UID G<b>A</b>M<b>E</b></v-list-item-title
             >
           </v-list-item>
+          <v-list v-if="getUserAuthStatus">
+            <v-list-item>
+              <v-list-item-avatar>
+                <v-img
+                  v-if="getUserInfo.photoURL"
+                  :src="getUserInfo.photoURL"
+                ></v-img>
+                <v-img v-else src="./assets/images/user.png"></v-img>
+              </v-list-item-avatar>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-content>
+                <v-list-item-title class="text-h6">
+                  <span class="name">{{ getUserInfo.name }}</span>
+                </v-list-item-title>
+                <v-list-item-subtitle>{{
+                  getUserInfo.email
+                }}</v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list>
         </div>
         <v-list>
           <v-list-item>
@@ -48,6 +69,8 @@
   </v-app>
 </template>
 <script>
+import { getUserAuthStatus, getUserInfo, logout } from "./mixins/authMixin";
+
 export default {
   data() {
     return {
@@ -60,6 +83,10 @@ export default {
 
 .bgColor {
   background-color: rgb(34, 34, 34);
+}
+
+.name {
+  font-weight: bolder;
 }
 
 .drawerTitle {
