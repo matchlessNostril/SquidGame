@@ -33,6 +33,12 @@ const router = new VueRouter({
       components: {
         default: () => import("../views/email-sign-up.vue"),
       },
+    {
+      path: "/gameList",
+      name: "game-list",
+      components: {
+        default: () => import("../views/game-list.vue"),
+      },
     },
     {
       path: "/Puzzle",
