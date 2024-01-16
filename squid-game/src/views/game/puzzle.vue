@@ -140,6 +140,8 @@
   </div>
 </template>
 <script>
+import { recordScore } from "../../mixins/rankingMixin";
+
 export default {
   data() {
     return {
@@ -281,6 +283,8 @@ export default {
               this.time
           );
           this.stopTimer();
+          // ranking
+          this.recordScore("Puzzle", this.time);
         }, 200);
       }
 

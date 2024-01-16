@@ -31,6 +31,8 @@
   </div>
 </template>
 <script>
+import { recordScore } from "../../mixins/rankingMixin";
+
 const rspCoords = {
   바위: "0",
   가위: "-313px",
@@ -136,6 +138,8 @@ export default {
               clearInterval(interval);
               setTimeout(() => {
                 alert("GAME OVER!!");
+                // ranking 기록
+                this.recordScore("MukChiPa", this.score);
               }, 2000);
             } else {
               console.log(moksum);
@@ -167,6 +171,7 @@ export default {
   beforeDestroy() {
     clearInterval(interval);
   },
+  mixins: [recordScore],
 };
 </script>
 <style scoped src="../../assets/css/game/muk-chi-pa.css"></style>

@@ -42,6 +42,8 @@
   </div>
 </template>
 <script>
+import { recordScore } from "../../mixins/rankingMixin";
+
 export default {
   data() {
     return {
@@ -93,6 +95,8 @@ export default {
       } else {
         alert(`time over!`);
         clearInterval(this.timer);
+        // ranking
+        this.recordScore("UpDown", temp);
 
         this.answer = Math.floor(Math.random() * 100);
         this.score = 100;
@@ -117,6 +121,8 @@ export default {
         // game end, User lose
         alert(`Game over! your score is 0, the answer was ${this.answer}`);
         clearInterval(this.timer);
+        // ranking
+        this.recordScore("UpDown", temp);
 
         this.answer = Math.floor(Math.random() * 100);
         this.score = 100;
@@ -143,6 +149,8 @@ export default {
           `You win! Bonus score is ${this.totalTime}. Final score is ${temp}`
         );
         clearInterval(this.timer);
+        // ranking
+        this.recordScore("UpDown", temp);
 
         this.answer = Math.floor(Math.random() * 100);
         this.score = 100;
@@ -194,6 +202,7 @@ export default {
       }
     },
   },
+  mixins: [recordScore],
 };
 </script>
 
