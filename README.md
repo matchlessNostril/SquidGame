@@ -1,4 +1,4 @@
-![image](https://github.com/matchlessNostril/SquidGame/assets/144131324/8946d5e5-9a72-46db-9014-28628f96debb)![header](https://capsule-render.vercel.app/api?type=soft&color=a3c1d1&height=150&section=header&text=Squid%20Game&fontSize=50&fontColor=FFFFFF&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=soft&color=a3c1d1&height=150&section=header&text=Squid%20Game&fontSize=50&fontColor=FFFFFF&animation=fadeIn)
 
 ## 💻 소개
 오징어 게임을 컨셉으로 디자인 한 웹 게임 사이트
@@ -32,7 +32,7 @@
 - [Link To WebSite](https://web-system-programming-b85b1.web.app/)
 
 ### 1️⃣ 게임 모드 선택
-![image](https://github.com/matchlessNostril/SquidGame/assets/144131324/4a5194e0-381f-4284-8d84-dae669ea53e1)
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/4a5194e0-381f-4284-8d84-dae669ea53e1" width="600" />
 - Online 모드, Offline 모드 선택 가능
 - Online 모드 클릭 시, 로그인 / 회원 가입 화면으로 이동
 - Offline 모드 클릭 시, 바로 게임 리스트 화면으로 이동
