@@ -45,9 +45,10 @@
 
 <img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/f8a6c29d-64c6-49b0-acbc-3c9769ec633a" width="600" />
 
-- 구글 간편 로그인 / 회원가입 가능
+- Google Sign In 버튼 클릭 시, 구글 간편 가입 팝업
 - Email Sign In 버튼 클릭 시, 일반 이메일 로그인 화면으로 이동
 - Email Sign Up 버튼 클릭 시, 일반 이메일 회원 가입 화면으로 이동
+
 
 <img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/be53849a-69aa-4c15-98f4-960d5ec0eabd" width="600" />
 
@@ -57,7 +58,12 @@
 
 - 이메일, 비밀번호, 비밀번호 확인 입력하고 Sign Up 버튼 누르면 회원가입 완료
 
-### 3️⃣
+### 3️⃣ 메인
+
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/5236fb9f-c49e-454d-aab2-cb832b713f07" width="600" />
+
+-
+
 ### 4️⃣
 ### 5️⃣
 ### 6️⃣
