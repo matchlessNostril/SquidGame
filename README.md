@@ -22,14 +22,13 @@
 
 ## ✔️ 사용 가능 디바이스
 
-<div>
-	<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/cdf9a819-e7a3-4851-872c-b0a73bdfa4ec" />
-</div>
-
 - `Mobile`
 - `Pad`
 - `Laptop`
 - `Desktop`
+<div>
+	<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/cdf9a819-e7a3-4851-872c-b0a73bdfa4ec" />
+</div>
 
 ## 📌 기능
 
