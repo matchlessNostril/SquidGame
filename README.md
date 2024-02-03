@@ -16,7 +16,7 @@
 <div>
 	<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=Vue.js&logoColor=white" />
 	<img src="https://img.shields.io/badge/Vuetify-1867C0?style=flat&logo=Vuetify&logoColor=white" />
-	<img src="https://img.shields.io/badge/Vuetify-6F717D?style=flat&logo=Vue.js&logoColor=white" />
+	<img src="https://img.shields.io/badge/Vuex-6F717D?style=flat&logo=Vue.js&logoColor=white" />
 	<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"" />
 </div>
 
