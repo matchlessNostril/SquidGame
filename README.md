@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=FF8A5C&height=200&section=header&text=Squid%20Game&fontSize=50)
+![header](https://capsule-render.vercel.app/api?type=soft&color=a3c1d1&height=150&section=header&text=Squid%20Game&fontSize=50&fontColor=FFFFFF&animation=fadeIn)
 
 ### 💻 프로젝트 소개
 
@@ -12,7 +12,7 @@
 	<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=Vue.js&logoColor=white" />
 	<img src="https://img.shields.io/badge/Vuetify-1867C0?style=flat&logo=Vuetify&logoColor=white" />
 	<img src="https://img.shields.io/badge/Vuetify-6F717D?style=flat&logo=Vue.js&logoColor=white" />
-	<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase" />
+	<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"" />
 </div>
 
 ---
