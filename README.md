@@ -21,11 +21,24 @@
 </div>
 
 ## ✔️ 사용 가능 디바이스
-
-- `Mobile (iOS/Android)`
+![SquidGame-ResponsiveDesign](https://github.com/matchlessNostril/SquidGame/assets/144131324/cdf9a819-e7a3-4851-872c-b0a73bdfa4ec)
+- `Mobile`
+- `Pad`
 - `Laptop`
 - `Desktop`
 
 ## 📌 기능
 
 - [Link To WebSite](https://web-system-programming-b85b1.web.app/)
+
+### 1️⃣
+### 2️⃣
+### 3️⃣
+### 4️⃣
+### 5️⃣
+### 6️⃣
+### 7️⃣
+### 8️⃣
+### 9️⃣
+### 🔟
+
