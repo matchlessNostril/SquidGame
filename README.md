@@ -22,7 +22,6 @@
 
 ## ✔️ 사용 가능 디바이스
 ![SquidGame-ResponsiveDesign](https://github.com/matchlessNostril/SquidGame/assets/144131324/dbcb5270-3714-4e2f-a8e7-e8bd3d90c906)
-
 - `Mobile`
 - `Pad`
 - `Laptop`
@@ -33,6 +32,7 @@
 - [Link To WebSite](https://web-system-programming-b85b1.web.app/)
 
 ### 1️⃣
+![image](https://github.com/matchlessNostril/SquidGame/assets/144131324/4a5194e0-381f-4284-8d84-dae669ea53e1)
 ### 2️⃣
 ### 3️⃣
 ### 4️⃣
