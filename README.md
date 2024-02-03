@@ -10,6 +10,7 @@
 
 <div>
 	<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=Vue.js&logoColor=white&fontColor=black" />
+	<img src="https://img.shields.io/badge/Vuetify-1867C0?style=flat&logo=Vue.js&logoColor=white&fontColor=black" />
 </div>
 
 ---
