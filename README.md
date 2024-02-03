@@ -24,10 +24,10 @@
 
 <img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/dbcb5270-3714-4e2f-a8e7-e8bd3d90c906" width="600" />
 
-- `Mobile`
-- `Pad`
-- `Laptop`
 - `Desktop`
+- `Laptop`
+- `Pad`
+- `Mobile`
 
 ## 📌 기능
 
@@ -60,7 +60,7 @@
 
 ### 3️⃣ 메인 (Online 모드에서 이용 가능)
 
-<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/21d5d47a-48f8-4e65-b104-8da4af91f994" width="600" />
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/e0433309-a295-42e4-8bb4-17a6f5f3eeaf" width="600" />
 
 - 모든 게임 기록 확인 가능
 - Game List 버튼 클릭 시, 게임 리스트 화면으로 이동
@@ -90,7 +90,38 @@
 - 퍼즐을 다 맞추면, 타이머가 멈추고 게임 결과 화면으로 이동
 
 ### 6️⃣ 업다운 게임
-### 7️⃣ 묵찌빠 게임
-### 8️⃣ 게임 결과 (Online 모드에서만 랭킹 확인 가능)
-### 9️⃣ 화면 별 드로어
 
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/7a77113f-3c39-4241-8371-024a2f5ee783" width="600" />
+
+- Game Start 버튼을 눌러 게임 시작
+- 1부터 100 사이의 숫자를 5번의 기회 안에 맞히면 성공
+- Time Stop 버튼으로 시간을 멈추거나, Game Reset 버튼으로 게임을 재시작 가능
+- 빠르고, 적은 기회 안에 맞힐 수록 점수가 높음
+- 기회를 다 쓰거나 숫자를 맞히면, 게임 결과 화면으로 이동
+
+### 7️⃣ 묵찌빠 게임
+
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/6702b17f-576d-456d-8520-3a42d4b24ce2" width="600" />
+
+- 하단의 묵, 찌, 빠 버튼을 눌러 게임 시작
+- 묵찌빠에서 이길 때마다 10점씩 얻음
+- 이기면 3초 뒤 다시 시작
+- 목숨은 총 5개로, 질 때마다 하나씩 차감
+- 목숨을 모두 잃으면, 게임 결과 화면으로 이동
+
+### 8️⃣ 게임 결과 (Online 모드에서만 랭킹 확인 가능)
+
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/a1fe4018-b461-463a-a029-626562ecaefe" width="600" />
+
+- 게임 점수가 상단에 나타남
+- 가운데에서 해당 게임의 랭킹 Top 10 확인 가능
+- 자신의 최고 등수와 점수도 확인 가능
+- Restart 버튼을 누르면 게임 다시 시작
+- Game List 버튼을 누르면 게임 리스트 화면으로 이동
+
+### 9️⃣ 상단바, 드로어
+
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/c2f2d524-7391-4568-b04e-ca5fd4b5b5b7" width="600" />
+
+- 화면 별마다 다른 상단바와 드로어로 원하는 화면으로 이동 가능
+- 로그인 된 사용자의 경우 드로어를 통해 로그아웃 가능
