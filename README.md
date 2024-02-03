@@ -21,8 +21,7 @@
 </div>
 
 ## ✔️ 사용 가능 디바이스
-
-<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/cdf9a819-e7a3-4851-872c-b0a73bdfa4ec" width="600" />
+![SquidGame-ResponsiveDesign](https://github.com/matchlessNostril/SquidGame/assets/144131324/dbcb5270-3714-4e2f-a8e7-e8bd3d90c906)
 
 - `Mobile`
 - `Pad`
