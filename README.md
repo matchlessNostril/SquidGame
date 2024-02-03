@@ -52,23 +52,45 @@
 
 <img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/be53849a-69aa-4c15-98f4-960d5ec0eabd" width="600" />
 
-- 이메일, 비밀번호 입력하고 Sign In 버튼 누르면 로그인 완료
+- 이메일, 비밀번호 입력하고 Sign In 버튼 누르면 로그인 후, 메인 화면으로 이동
 
 <img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/f3e092f7-fe8f-4f84-ab7e-db81de27b15c" width="600" />
 
-- 이메일, 비밀번호, 비밀번호 확인 입력하고 Sign Up 버튼 누르면 회원가입 완료
+- 이메일, 비밀번호, 비밀번호 확인 입력하고 Sign Up 버튼 누르면 회원가입 완료 후, 메인 화면으로 이동
 
-### 3️⃣ 메인
+### 3️⃣ 메인 (Online 모드에서 이용 가능)
 
-<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/5236fb9f-c49e-454d-aab2-cb832b713f07" width="600" />
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/21d5d47a-48f8-4e65-b104-8da4af91f994" width="600" />
 
--
+- 모든 게임 기록 확인 가능
+- Game List 버튼 클릭 시, 게임 리스트 화면으로 이동
+- Sign Out 버튼 클릭 시, 로그아웃
 
-### 4️⃣
-### 5️⃣
-### 6️⃣
-### 7️⃣
-### 8️⃣
-### 9️⃣
-### 🔟
+### 4️⃣ 게임 리스트
+
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/10f1b56c-f5c8-4556-aa10-a23fb899c4b9" width="600" />
+
+- 게임 이름과 설명이 나타남
+- 각 게임 오른쪽의 동그라미 버튼을, 누르면 게임 화면으로 이동
+
+### 5️⃣ 퍼즐 게임
+
+<img src="https://github.com/matchlessNostril/SquidGame/assets/144131324/44ada8e1-268b-484e-a5b6-3056a6d94d2d" width="600" />
+
+- 퍼즐이 섞일 때까지 기다려 주세요 😅
+- Desktop, Laptop에서는 마우스와 방향키로 퍼즐 이동 가능
+- Mobile에서는 슬라이드로 퍼즐 이동 가능
+- 하단에 현재 몇 개의 퍼즐이 올바른 위치에 있는 지 나타남
+- Custom Image에서 총 4개의 퍼즐 디자인 선택 가능
+- Show Solution을 해제하면, 정답 이미지가 사라짐
+- Dim incorrect tiles를 누르면, 올바른 위치에 있지 않은 퍼즐이 어두워짐
+- Show numbers를 누르면, 각 퍼즐이 몇 번째 위치에 있어야 하는 지 나타남
+  - Invert number colors를 누르면, 글자 색깔이 반전됨
+- RE-SHUFFLE 버튼을 누르면, 퍼즐이 다시 섞임
+- 퍼즐을 다 맞추면, 타이머가 멈추고 게임 결과 화면으로 이동
+
+### 6️⃣ 업다운 게임
+### 7️⃣ 묵찌빠 게임
+### 8️⃣ 게임 결과 (Online 모드에서만 랭킹 확인 가능)
+### 9️⃣ 화면 별 드로어
 
