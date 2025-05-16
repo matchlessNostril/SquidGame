@@ -1,5 +1,3 @@
-![header](https://capsule-render.vercel.app/api?type=soft&color=ff6e6e&height=150&section=header&text=Squid%20Game&fontSize=50&fontColor=FFFFFF&animation=fadeIn)
-
 ## 💻 Introduction
 A web game site designed with a **Squid Game** concept.
 
