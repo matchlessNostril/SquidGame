@@ -16,7 +16,7 @@ Easily access the site on mobile by adding it to your home screen!
 
 ## 🕐 Development Period
 
-- `Oct 2021 - Dec 2021`
+- `21.10-21.12`
 
 ## 📚 Frameworks, Libraries, and Platforms Used
 
